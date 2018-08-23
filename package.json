@@ -1,0 +1,16 @@
+{
+  "name": "projection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "projection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass sass/main.scss css/style.css -w",
+    "build": "node-sass sass/main.scss css/style.css --output-style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
