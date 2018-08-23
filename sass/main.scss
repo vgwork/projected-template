@@ -25,12 +25,6 @@ $primary-color: #6cc091;
 		font-weight: 500;
 	}
 
-	&__button {
-		margin: 30px;
-		color: $primary-color;
-		border: 3px solid $primary-color;
-	}
-
 	&-item-container {
 		@include flex-center();
 		flex-direction: column;
@@ -132,8 +126,7 @@ $primary-color: #6cc091;
 	}
 
 	&__button {
-		color: $primary-color;
-		border: 3px solid $primary-color;
+		
 	}
 }
 
@@ -173,13 +166,6 @@ $primary-color: #6cc091;
 	&__input::placeholder {
 		color: #aad8bf;
 	}
-
-	&__button {
-		background: $primary-color;
-		border: 3px solid white;
-		color: white;
-		margin: 20px 0;
-	}
 }
 
 .footer-page {
@@ -213,6 +199,19 @@ $primary-color: #6cc091;
 	text-align: center;
 	text-decoration: none;
 	font-size: 14px;
+	color: $primary-color;
+	border: 3px solid $primary-color;
+
+	&--form {
+		background: $primary-color;
+		border: 3px solid white;
+		color: white;
+		margin: 20px auto;
+	}
+
+	&--main-page {
+		margin: 30px;
+	}
 }
 .panel {
 	top: 0;
