@@ -36,23 +36,22 @@ $primary-color: #6cc091;
 	@include flex-center();
 	flex-direction: column;
 	padding: 15px 0;
+	
 
 	&__icon {
 		color: $primary-color;
 		margin: 10px;
 	}
 
-	&__text {
+	&__text-header {
+		font-weight: 500;
 		margin: 0 0 5px 0;
 		color: white;
 	}
 
-	&__text-header {
-		font-weight: 500;
-	}
-
 	&__text-desc {
 		color: rgba(255, 255, 255, 0.55);
+		margin: 0 0 5px 0;
 	}
 }
 
@@ -110,19 +109,18 @@ $primary-color: #6cc091;
 		border-radius: 100px;
 	}
 
-	&__text {
-		text-align: center;
-		padding: 0 10%;
-	}
-
 	&__text-header {
 		font-size: 1.75em;
 		font-weight: 400;
 		color: #555;
+		text-align: center;
+		padding: 0 10%;
 	}
 
 	&__text-desc {
 		color: rgba(80, 80, 80, 0.7);
+		text-align: center;
+		padding: 0 10%;
 	}
 
 	&__button {
